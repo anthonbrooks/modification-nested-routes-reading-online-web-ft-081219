@@ -3995,3 +3995,12 @@ Processing by PostsController#edit as HTML
 Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/authors/4432433/posts/17/edit" for 172.89.4.14 at 2019-10-30 19:04:14 +0000
+Cannot render console from 172.89.4.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#edit as HTML
+  Parameters: {"author_id"=>"4432433", "id"=>"17"}
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4432433], ["LIMIT", 1]]
+Redirected to http://165.227.31.208:53767/authors
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+
+
