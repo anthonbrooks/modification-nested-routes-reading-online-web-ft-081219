@@ -3918,3 +3918,8 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 49ms (Views: 44.2ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/posts/17" for 172.89.4.14 at 2019-10-30 19:01:04 +0000
+Cannot render console from 172.89.4.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
